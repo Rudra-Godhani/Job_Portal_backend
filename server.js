@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import app from "./app.js";
 import cloudinary from "cloudinary";
 
