@@ -22,7 +22,7 @@ const applicationSchema = new mongoose.Schema({
         },
         address: {
             type: String,
-            required: true,
+            required: true,+
         },
         resume: {
             public_id: String,
@@ -59,7 +59,7 @@ const applicationSchema = new mongoose.Schema({
             type: String,
             required: true,
         },
-    },
+    },  
     deletedBy: {
         jobSeeker: {
             type: Boolean,
