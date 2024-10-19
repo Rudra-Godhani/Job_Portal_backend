@@ -22,7 +22,7 @@ const applicationSchema = new mongoose.Schema({
         },
         address: {
             type: String,
-            required: true,+
+            required: true,
         },
         resume: {
             public_id: String,
